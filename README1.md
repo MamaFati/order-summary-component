@@ -28,8 +28,8 @@ This is my second change on frontend Mentor challenges, I thought thid challenge
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/MamaFati/order-summary-component)
+- Live Site URL: [Add live site URL here](https://fastidious-unicorn-661f09.netlify.app/)
 
 ## My process
 
@@ -58,7 +58,7 @@ main {
 
 ## Author
 
-- Website - [ Fati](https://www.your-site.com)
+- Website - [ Fati](https://fastidious-unicorn-661f09.netlify.app/)
 - Frontend Mentor - [@MamaFati](https://www.frontendmentor.io/profile/MamaFati)
 - Twitter - [@Fati29667004](https://www.twitter.com/TimaTech)
 
