@@ -1,0 +1,132 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("./images/pattern-background-desktop.svg");
+    background-repeat: no-repeat;
+  background-position:cover;
+  background-color: hsl(225, 100%, 94%);
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+main {
+  width: 30%;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 4px -2px hsl(224, 23%, 55%);
+}
+
+.hero-img {
+  width: 100%;
+  height: 30vh;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.hero-text {
+  padding-bottom: 40px;
+
+  font-family: Red Hat Display, "Courier New", Courier, monospace;
+}
+.music-flex {
+  display: flex;
+  gap: 9px;
+}
+.music-icon {
+  width: 35px;
+  cursor: pointer;
+}
+.annaul-plan-container {
+  display: flex;
+  background-color: hsl(225, 100%, 98%);
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+  margin: 20px auto;
+  border-radius: 10px;
+  padding: 10px 0;
+}
+p,
+.btn-white {
+  font-size: 15px;
+  color: hsl(224, 23%, 55%);
+}
+.bold {
+  font-weight: 900;
+  font-size: 20px;
+  color: hsl(223, 47%, 23%);
+  padding: 10px;
+}
+.annual {
+  font-weight: 700;
+  color: hsl(223, 47%, 23%);
+}
+
+a {
+  color: hsl(245, 75%, 52%);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+  /* padding:10px 70px; */
+}
+.btn-white {
+  border: none;
+  font-weight: 700;
+  background-color: #fff;
+  cursor: pointer;
+  margin-top: 10px;
+  /* padding:10px 0; */
+}
+.btn-blue {
+  border: none;
+  background-color: hsl(245, 75%, 52%);
+  box-shadow: 0 8px 6px -2px hsl(224, 23%, 55%);
+  color: #fff;
+  
+  font-weight: 900;
+  margin-bottom: 10px;
+  cursor: pointer;
+  padding: 10px;
+  
+  border-radius: 10px;
+  
+}
+.btn-blue:hover{
+  background-color: hsl(224, 23%, 55%);
+}
+.btn-white:hover{
+   background-color: rgba(255, 0, 0, 0.822);
+   padding:10px;
+     border-radius: 10px;
+     color:#fff;
+}
+ 
+@media screen
+    and (max-width: 480px) {
+  body {
+   background-image: url("./images/pattern-background-mobile.svg");
+  background-color: hsl(225, 100%, 94%);
+   background-repeat: no-repeat;
+  }
+  main{
+    width:90%;
+  }
+}
+@media screen and (max-width: 767px)  {
+   main{
+    width:70%;
+  }
+}
